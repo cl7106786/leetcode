@@ -1,5 +1,7 @@
 package lafenglong;
 
+import java.util.Stack;
+
 public class BinarySearchTest {
 
     public static void main(String[] args) {
@@ -16,5 +18,6 @@ public class BinarySearchTest {
         int s1 = (i + j) >>> 2;
         System.out.println("=======================");
         System.out.println(s1);
+        Stack<Integer> stack = new Stack<>();
     }
 }
